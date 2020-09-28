@@ -160,7 +160,7 @@ p {
 /*Social links */
 
 .social-links {
-  margin-top: 15rem;
+  margin-top: 10rem;
   height: 12rem;
   display: flex;
   flex-direction: column;
@@ -185,7 +185,7 @@ p {
 /*footer*/
 .footer {
   position: absolute;
-  bottom: 2rem;
+  bottom: 0.1rem;
   left: 2rem;
   width: 20vw;
 }
