@@ -62,6 +62,7 @@ body {
 }
 ul {
   list-style-type: none;
+  line-height: 2;
 }
 a {
   text-decoration: none;
@@ -102,7 +103,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-3);
+  color: var(--clr-black);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -160,8 +161,8 @@ p {
 /*Social links */
 
 .social-links {
-  margin-top: 10rem;
-  height: 12rem;
+  margin-top: 50%;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -176,18 +177,23 @@ p {
 }
 
 /*categories*/
+
 .categories {
   text-transform: capitalize;
-  margin-top: 12%;
+  margin-top: 8%;
   margin-bottom: 10%;
 }
 
+header h1 {
+  font-weight: bold;
+}
+
 /*footer*/
+
 .footer {
-  position: absolute;
-  bottom: 0.1rem;
-  left: 2rem;
-  width: 20vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 .footer h5 {
   margin-top: 0.2rem;
@@ -201,40 +207,50 @@ p {
 .wrapper {
   display: grid;
   grid-template-areas: "nav content";
-  grid-template-columns: 25vw 2fr;
+  grid-template-columns: 18% 80%;
   grid-template-rows: auto;
-  grid-gap: 10px;
-  height: 100vh;
+  grid-gap: none;
+  /* height: 100vh; */
+  margin: 2%;
 }
 .sidebar {
   grid-area: nav;
-  margin: 2rem;
+  /* margin-left: 10%;
+  margin-top: 10%; */
+  padding-right: 1.2%;
   display: flex;
   flex-direction: column;
+  border-right: 1px solid rgb(160, 154, 154);
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  height: 100vh;
 }
 
 main {
   grid-area: content;
-  margin-top: 6rem;
-  margin-right: 5rem;
+  margin-top: 2%;
+  margin-left: 2%;
+  /* margin-top: 6rem;
+  margin-right: 5rem; */
 }
 
 .my-masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
-  margin-left: -50px;
+  /* margin-left: -5%; */
   /* gutter size offset */
   width: auto;
 }
 .my-masonry-grid_column {
-  padding-left: 10px; /* gutter size */
+  padding-left: 1%; /* gutter size */
   background-clip: padding-box;
 }
 
 /* Style your items */
 .my-masonry-grid_column > div {
-  margin-bottom: 10px;
+  margin-bottom: 1%;
 }
 .grid-item {
   transition: 0.3s ease-in-out;
@@ -246,14 +262,19 @@ main {
 
 .container-view {
   margin: 0 auto;
-  padding: 0 5rem 5rem 5rem;
   width: 80%;
+  padding: 3rem 2rem 5rem 2rem;
+
   /* width: 80%;
   height: 80vh; */
 }
 
 .container-view div {
   margin: 0 auto;
+  cursor: n-resize;
+
+  /* margin: 0 auto; */
+  /* vertical-align: middle; */
 
   /* max-height: 100%;
   max-width: 100%;
@@ -267,3 +288,25 @@ w-resize
 react simple image slider
 lightbox
 */
+.carousel-navigation {
+  position: fixed;
+  bottom: 4%;
+  left: 5%;
+  text-transform: uppercase;
+}
+
+/*About page */
+.about {
+  padding: 0 1%;
+  width: 80%;
+}
+.about h4 {
+  line-height: 1.5em;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.about p {
+  line-height: 1.5em;
+  font-weight: 300;
+  font-size: 1.2rem;
+}

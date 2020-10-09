@@ -1,8 +1,8 @@
 import React from "react"
 import Image from "gatsby-image"
 import Masonry from "react-masonry-css"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import { Link } from "gatsby"
 
 const breakpointColumnsObj = {
   default: 4,
@@ -22,9 +22,13 @@ const Thumbnail = props => {
         {props.images.map((img, idx) => {
           return (
             <div key={idx}>
-              <Link to={`/${img.slug}`}>
-                <Image className="grid-item" fluid={img.image.fluid} alt="brr" />
-              </Link>
+              <AniLink fade to={`/${img.slug}`}>
+                <Image
+                  className="grid-item"
+                  fluid={img.image.fluid}
+                  alt="brr"
+                />
+              </AniLink>
             </div>
           )
         })}
@@ -34,6 +38,3 @@ const Thumbnail = props => {
 }
 
 export default Thumbnail
-
-
-

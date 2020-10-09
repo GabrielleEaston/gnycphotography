@@ -6,17 +6,45 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <section className="about">
-      <h4>About Me</h4>
+      <h4>Bio</h4>
       <p>
-        I'm baby af whatever nulla unicorn heirloom hammock hella food truck
-        squid tumblr. Readymade small batch letterpress unicorn exercitation
-        gastropub. Kinfolk heirloom quis four loko drinking vinegar occupy.
-        Cliche health goth meditation, adaptogen typewriter tousled wayfarers
-        craft beer man bun aliqua keytar in. Health goth quinoa do humblebrag
-        irony, pop-up biodiesel cillum seitan pitchfork distillery dreamcatcher
-        chillwave gentrify. Gochujang id sunt photo booth pabst ennui quis pug.
-        Paleo photo booth nostrud ugh, chambray franzen artisan glossier in
-        mustache consectetur.
+        Gonzalo Cisterna Sandoval <br />
+        By Juan Domingo Marinello
+      </p>
+      <p>
+        Native of Concepción, at the age of fifteen Gonzalo discovered a strong
+        love for music and joined a band with his cousins. Later he got
+        interested in sculpture, particulary working with waste materials. When
+        he entered the career of Engineering at the Bio Bio University, he
+        participated in his first photography workshop with the Master Andres
+        Latini Lanata; in that workshop he found the way to unite his múltiple
+        interests. Without any hesitation Gonzalo Came to Santiago to study at
+        the Pontificia Catholic University of Chile and later the United States,
+        where he studied art, photography and film.
+      </p>
+      <p>
+        His photographs focus mainly on people who live marginal lives to the
+        paradigms proposed by mainstream culture. They carry a mind of their
+        own,and captivate the viewer through a succesful use of light and
+        shadow,revealing what he/she is unable to see. Admirer of the work of
+        French photographers Robert Doisneau and Henri Cartier Bresson, with
+        whom he feels very identified with, and also has total respect for the
+        technical of the American photographer, Ansel Adams.{" "}
+      </p>
+      <p>
+        Gonzalo personal work has been combined with his work for art magazines,
+        particularly music magazines such as: Rolling Stone magazine, Picnic,
+        Play Magazine, Rockaxis, Paula and Wiken. Gonzalo has also taken
+        numerous photographs of bands such as : Matisyahu, Claudia Acuña, Mike
+        Stern, Loui Palmer, Keith Carlock, Thana Alexa, Los Bunkers, Dante
+        Spinetta, Matorral, Melissa Aldana, Pablo Menares, Felix Lecaros, Kinky,
+        The Salón, Bryan Gee, Electrodomesticos, Esencia, Los Tetas, Christian
+        Galvez, Dj Bitman and Christian Cuturrufo, among others. Amongs these
+        many talents he is also the Director of the Magazine “Dixer”.
+      </p>
+      <p>
+        He currently resides in New York City, a place he hopes to continue his
+        studies and love for music and art in a postgraduate program.
       </p>
     </section>
   </Layout>

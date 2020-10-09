@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Link } from "gatsby"
-
+//import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 const query = graphql`
   {
     categories: allContentfulGalleries {
@@ -19,9 +19,14 @@ const Categories = () => {
       {distinct.map((category, index) => {
         return (
           <li key={index}>
-            <Link to={`/${category}`} className="category">
+            <AniLink
+              fade
+              to={`/${category}`}
+              duration={0.09}
+              className="category"
+            >
               {category}
-            </Link>
+            </AniLink>
           </li>
         )
       })}

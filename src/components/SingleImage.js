@@ -44,15 +44,17 @@ const SingleImage = props => {
           <Link to={`/${next}`}>next</Link>
         </div> */}
       </div>
-      <Link to={`/${props.photo.category}`}>show thumbnails</Link>
-      <br />
-      <AniLink fade to={`/${prev}`}>
-        prev
-      </AniLink>
-      /
-      <AniLink fade to={`/${next}`}>
-        next
-      </AniLink>
+      <div className="carousel-navigation">
+        <Link to={`/${props.photo.category}`}>show thumbnails</Link>
+        <br />
+        <AniLink fade to={`/${prev}`}>
+          prev
+        </AniLink>
+        /
+        <AniLink fade to={`/${next}`}>
+          next
+        </AniLink>
+      </div>
     </Layout>
   )
 }

@@ -2,8 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import Footer from "./Footer"
 import Categories from "./Categories"
-import { RiFacebookLine, RiMailSendLine } from "react-icons/ri"
+import {
+  RiFacebookLine,
+  RiMailSendLine,
+  RiCameraLensLine,
+} from "react-icons/ri"
 import { AiOutlineInstagram } from "react-icons/ai"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 import { BsPhone } from "react-icons/bs"
 
 const Header = ({ toggleSideBar }) => {
@@ -11,25 +17,21 @@ const Header = ({ toggleSideBar }) => {
     <nav className="sidebar">
       <header className="sidebar-header">
         <Link to="/">
-          <h1>
-            GONZALO CISTERNA <br />
-            NYC PHOTOGRAPHY
-          </h1>
+          <h1 style={{ marginLeft: -2 }}>GONZALO CISTERNA</h1>
         </Link>
       </header>
-      <aside></aside>
 
       <Categories />
-
-      <ul className="nav">
-        <Link to="/about">
-          <li>About</li>
-        </Link>
-        <Link to="/contact">
-          <li>Contact</li>
-        </Link>
-      </ul>
-
+      <div>
+        <ul className="nav">
+          <AniLink to="/about">
+            <li>About</li>
+          </AniLink>
+          <Link to="/contact">
+            <li>Contact</li>
+          </Link>
+        </ul>
+      </div>
       <div>
         <ul className="social-links nav-links">
           <li>
@@ -74,7 +76,6 @@ const Header = ({ toggleSideBar }) => {
           </li>
         </ul>
       </div>
-
       <Footer />
     </nav>
   )
