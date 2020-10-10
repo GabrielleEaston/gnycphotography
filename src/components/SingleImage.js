@@ -36,7 +36,7 @@ const SingleImage = props => {
         <Image
           fluid={props.photo.image.fluid}
           alt={props.photo.slug}
-          style={{ maxHeight: "calc(85vh - 4rem)" }}
+          style={{ maxHeight: "calc(80vh - 6rem)" }}
           imgStyle={{ objectFit: "contain" }}
         />
 

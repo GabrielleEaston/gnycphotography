@@ -25,7 +25,7 @@ const About = () => (
       <p>
         His photographs focus mainly on people who live marginal lives to the
         paradigms proposed by mainstream culture. They carry a mind of their
-        own,and captivate the viewer through a succesful use of light and
+        own, and captivate the viewer through a succesful use of light and
         shadow,revealing what he/she is unable to see. Admirer of the work of
         French photographers Robert Doisneau and Henri Cartier Bresson, with
         whom he feels very identified with, and also has total respect for the

@@ -3,11 +3,10 @@ import Image from "gatsby-image"
 import Masonry from "react-masonry-css"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-
 const breakpointColumnsObj = {
   default: 4,
   1100: 4,
-  700: 3,
+  800: 4,
   500: 1,
 }
 

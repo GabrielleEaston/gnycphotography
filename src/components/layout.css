@@ -157,18 +157,64 @@ p {
   margin: 0 auto;
   margin-top: 3rem;
 }
+/*////////////////////Sidebar////////////////*/
+.wrapper {
+  padding: 2% 4% 0 4%;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  height: 100vh;
+}
+header {
+  grid-area: header;
+}
+header h1 {
+  font-weight: bold;
+}
+main {
+  grid-area: content;
+}
+
+/*=====Side bar css=====*/
+
+.sidebar {
+  grid-area: sidebar;
+  border-right: 4px solid rgb(160, 154, 154);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+/*categories*/
+
+.categories {
+  text-transform: capitalize;
+}
+
+/*Navigation about and contact */
+
+.nav-container {
+  margin-top: -10rem;
+}
 
 /*Social links */
-
+.social-links-container {
+  padding: 2% 0 5% 0;
+}
 .social-links {
-  margin-top: 50%;
-  height: 10rem;
+  width: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .social-link {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   color: var(--clr-black);
   transition: var(--transition);
 }
@@ -176,63 +222,30 @@ p {
   color: var(--clr-grey-10);
 }
 
-/*categories*/
-
-.categories {
-  text-transform: capitalize;
-  margin-top: 8%;
-  margin-bottom: 10%;
-}
-
-header h1 {
-  font-weight: bold;
-}
-
 /*footer*/
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  grid-area: footer;
 }
-.footer h5 {
-  margin-top: 0.2rem;
-  font-weight: 300;
-}
+.footer h5,
 .footer h5 span {
-  color: var(--clr-primary-5);
   font-weight: 300;
-}
-/*////////////////////Sidebar////////////////*/
-.wrapper {
-  display: grid;
-  grid-template-areas: "nav content";
-  grid-template-columns: 18% 80%;
-  grid-template-rows: auto;
-  grid-gap: none;
-  /* height: 100vh; */
-  margin: 2%;
-}
-.sidebar {
-  grid-area: nav;
-  /* margin-left: 10%;
-  margin-top: 10%; */
-  padding-right: 1.2%;
-  display: flex;
-  flex-direction: column;
-  border-right: 1px solid rgb(160, 154, 154);
-  position: fixed;
-  top: 5%;
-  left: 5%;
-  height: 100vh;
 }
 
-main {
-  grid-area: content;
-  margin-top: 2%;
-  margin-left: 2%;
-  /* margin-top: 6rem;
-  margin-right: 5rem; */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "content"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows:
+      auto /* Header */
+      minmax(75px, auto) /* Sidebar */
+      1fr /* Content */
+      auto; /* Footer */
+  }
 }
 
 .my-masonry-grid {
@@ -290,8 +303,8 @@ lightbox
 */
 .carousel-navigation {
   position: fixed;
-  bottom: 4%;
-  left: 5%;
+  bottom: 8%;
+  left: 4%;
   text-transform: uppercase;
 }
 

@@ -6,7 +6,14 @@ import SEO from "../components/seo"
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <p>Contact Me</p>
+    <h4>Contact</h4>
+    <p>
+      For all pricing and booking inquiries , please fill out the form below.
+      Please include as much relevant information as possible, for example, the
+      location of the project, amount of images needed, intended usage of the
+      images, and timeframe for project completion. I look forward to hearing
+      from you
+    </p>
   </Layout>
 )
 
