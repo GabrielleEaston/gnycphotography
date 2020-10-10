@@ -1,9 +1,9 @@
 import React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import Categories from "./Categories"
 import { RiFacebookLine, RiMailSendLine } from "react-icons/ri"
 import { AiOutlineInstagram } from "react-icons/ai"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+//import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { BsPhone } from "react-icons/bs"
 const Sidebar = () => {
   return (
@@ -11,12 +11,12 @@ const Sidebar = () => {
       <Categories />
       <div className="nav-container">
         <ul className="nav">
-          <AniLink fade to="/about">
+          <Link fade to="/about">
             <li>About</li>
-          </AniLink>
-          <AniLink fade to="/contact">
+          </Link>
+          <Link fade to="/contact">
             <li>Contact</li>
-          </AniLink>
+          </Link>
         </ul>
       </div>
 
