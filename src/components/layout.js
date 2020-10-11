@@ -2,9 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 //import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
-import Footer from "./Footer"
 import Sidebar from "./Sidebar"
 import "./layout.css"
+import MobileMenu from "./Mobile-menu"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -16,13 +16,17 @@ const Layout = ({ children }) => {
   //     }
   //   }
   // `)
+  const [isOpen, setIsOpen] = React.useState(false)
 
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
   return (
     <div className="wrapper">
-      <Header />
+      <Header toggle={toggle} />
+      <MobileMenu isOpen={isOpen} toggle={toggle} />
       <Sidebar />
       <main>{children}</main>
-      <Footer />
     </div>
   )
 }

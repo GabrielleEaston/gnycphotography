@@ -148,7 +148,7 @@ p {
 }
 .btn:hover {
   color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+  background: #fafafa;
 }
 .center-btn {
   display: block;
@@ -157,7 +157,7 @@ p {
   margin: 0 auto;
   margin-top: 3rem;
 }
-/*////////////////////Sidebar////////////////*/
+/*////////////////////Grid////////////////*/
 .wrapper {
   padding: 2% 5% 0 4%;
   display: grid;
@@ -172,6 +172,9 @@ p {
 }
 header {
   grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 header h1 {
   font-weight: bold;
@@ -220,6 +223,16 @@ main {
   color: var(--clr-grey-10);
 }
 
+/*Mobile Menu*/
+.mobile {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  .toggle-btn {
+    display: none;
+  }
+  
+}
 /*footer*/
 
 .footer {
@@ -301,7 +314,7 @@ lightbox
 */
 .carousel-navigation {
   position: fixed;
-  bottom: 8%;
+  bottom: 3%;
   left: 4%;
   text-transform: uppercase;
 }
@@ -323,4 +336,42 @@ lightbox
   line-height: 1.5em;
   font-weight: 300;
   font-size: 1.2rem;
+}
+.contact p {
+  font-size: 1rem;
+  padding-bottom: 3%;
+}
+/*Contact page */
+.contact-form {
+  transition: var(--transition);
+  width: 40vw;
+}
+.form-group {
+  padding: 0.8rem 1.1rem;
+}
+.form-control {
+  display: block;
+  width: 80%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 1.25rem;
+  background: #fafafa;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+}
+.form-control::placeholder {
+  font-family: var(--ff-primary);
+  color: var(--clr-grey-1);
+  letter-spacing: var(--spacing);
+}
+.submit-btn {
+  display: block;
+  width: 40%;
+  background-color: #000000;
+  color: white;
+  padding: 0.5rem;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
