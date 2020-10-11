@@ -2,19 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 import Categories from "./Categories"
 import { RiFacebookLine, RiMailSendLine } from "react-icons/ri"
-import { AiOutlineInstagram } from "react-icons/ai"
+import { AiOutlineInstagram, AiOutlineCloseCircle } from "react-icons/ai"
 //import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { BsPhone } from "react-icons/bs"
 const MobileMenu = ({ isOpen, toggle }) => {
   return (
     <aside className={`mobile ${isOpen ? "showMobileMenu" : ""}`}>
       <button className="close-btn" onClick={toggle}>
-        close
+        <AiOutlineCloseCircle></AiOutlineCloseCircle>
       </button>
-      <nav className="mobile">
+      <nav className="mobile-nav">
         <Categories />
-        <div className="nav-container">
-          <ul className="nav">
+        <div className="mobile-nav-container">
+          <ul className="mobile-nav">
             <Link fade to="/about">
               <li>About</li>
             </Link>

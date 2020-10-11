@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { AiOutlineMenu } from "react-icons/ai"
 //import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Header = ({ toggle }) => {
@@ -9,7 +10,7 @@ const Header = ({ toggle }) => {
         <h1>GONZALO CISTERNA </h1>
       </Link>
       <button className="toggle-btn" onClick={toggle}>
-        menu
+        <AiOutlineMenu></AiOutlineMenu>
       </button>
     </header>
   )
