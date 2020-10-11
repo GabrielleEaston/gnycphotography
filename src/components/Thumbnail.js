@@ -5,9 +5,9 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const breakpointColumnsObj = {
   default: 4,
-  1100: 4,
-  800: 4,
-  500: 1,
+  1700: 4,
+  1532: 3,
+  1159: 1,
 }
 
 const Thumbnail = props => {
