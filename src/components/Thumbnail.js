@@ -8,6 +8,7 @@ const breakpointColumnsObj = {
   1700: 4,
   1532: 3,
   1159: 1,
+  500: 3,
 }
 
 const Thumbnail = props => {
