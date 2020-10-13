@@ -72,27 +72,27 @@ _The **Gonzalo Cisterna's Photography** MVP lorem ipsum dolor sit amet, consecte
 
 ![Dummy Link](https://i.imgur.com/hmitBQ6.png)
 
-- Desktop Hero
+- Desktop Carousel
 
 ![Dummy Link](https://i.imgur.com/wkKFLzh.png)
 
-- Resource Index
+- About page
 
 ![Dummy Link](https://i.imgur.com/EZ8IAzM.png)
 
-- Resource Show
+- Contact
 
 ![Dummy Link](https://i.imgur.com/VHuJCiV.png)
 
-- Tablet Resource Index
+- Success page after the form submission
 
 ![Dummy Link](https://i.imgur.com/2XXqE2F.png)
 
-- Mobile Resource Index
+- Mobile Menu
 
 ![Dummy Link](https://i.imgur.com/v3LQxCj.png)
 
-- Mobile Resource Index
+- Mobile View
 
 #### Component Hierarchy
 
