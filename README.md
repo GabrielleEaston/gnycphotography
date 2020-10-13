@@ -1,4 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->  
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
@@ -42,6 +43,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 12. **`README.md`**: A text file containing useful reference information about your project.
 
 ## 🎓 Gatsby
+
 Gatsby is a blazing-fast static site generator for React. So you can get server side rendering automatically because of Gatsby.
 A Gatsby site is also highly performant because it gives you client side code splitting and lazy loading of assets. This means that Gatsby gives the browser a complete page as a single file. Gatsby also performs prefetching. After a page is loaded, it fetches data for all the other pages that are linked on the loaded page. This makes user navigation extremely fast
 
@@ -51,21 +53,20 @@ Gatsby maintains an internal GraphQL data store. This internal data store is que
 Contentful CMS
 Is content infrastructure. The platform lets you create, manage and distribute content to any platform. Unlike a CMS, we give you total freedom to create your own content model so you can decide which content you want to manage.
 
-
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-# Personal Website for a local NYC Photographer <!-- omit in toc -->
 
+# Personal Website for a local NYC Photographer <!-- omit in toc -->
 
 - [Overview](#Overview)
   - [Core Features](#Core-Features)
   - [Team](#Team)
   - [Permissions](#Permissions)
 - [MVP](#MVP)
-  - [Client (Front End)](#Client-Front-End)
+  - [Front End](#Front-End)
     - [Wireframes](#Wireframes)
     - [Component Hierarchy](#Component-Hierarchy)
     - [Component Breakdown](#Component-Breakdown)
@@ -96,10 +97,9 @@ _Being able to easily update the content once the development is completed._
 - _Print Shop(coming soon feature)._
 - _etc._
 
-
 ### Team
 
-Created, designed, and developed by [Gabrielle Easton](https://github.com/GabrielleEaston) 
+Created, designed, and developed by [Gabrielle Easton](https://github.com/GabrielleEaston)
 
 ### Permissions
 
@@ -147,7 +147,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use this section to define your React components and the data architecture of your app.
 
-``` structure
+```structure
 
 src
 |__ components/
@@ -171,17 +171,13 @@ src
       |__success
 |__templates/
       |__category-template
-      |__photo-template 
+      |__photo-template
 
-      gatsby-node created dynamically pages using templates     
+      gatsby-node created dynamically pages using templates
 
 ```
 
 #### Component Breakdown
-
-
-
-
 
 #### Component Estimates
 
@@ -207,7 +203,7 @@ src
 
 > Use this section to display the database, table, and attribute heirarchy.
 
-``` structure
+```structure
 
 database_db
 |__ users/
@@ -234,9 +230,9 @@ database_db
 |     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
 |  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
 
-<br> 
+<br>
 
-***
+---
 
 > This section is not necessary for your pitch!
 
@@ -244,7 +240,7 @@ database_db
 
 > Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
-***
+---
 
 ## Code Showcase
 
