@@ -137,7 +137,7 @@ src
 
 #### Data Flow in an app
 
-> Use this section to display the expected endpoints from your API.
+> Where the data gets fetched and how it flows
 
 <br>
 
