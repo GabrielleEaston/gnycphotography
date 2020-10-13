@@ -95,19 +95,19 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 - Desktop Landing
 
-![Dummy Link](url)
+![Dummy Link](https://i.imgur.com/hmitBQ6.png)
 
 - Desktop Hero
 
-![Dummy Link](url)
+![Dummy Link](https://i.imgur.com/wkKFLzh.png)
 
 - Resource Index
 
-![Dummy Link](url)
+![Dummy Link](https://i.imgur.com/EZ8IAzM.png)
 
 - Resource Show
 
-![Dummy Link](url)
+![Dummy Link](https://i.imgur.com/VHuJCiV.png)
 
 - Tablet Resource Index
 
