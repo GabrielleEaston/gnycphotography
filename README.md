@@ -162,10 +162,13 @@ src
 
 ## Post-MVP
 
-> Print Shop
-> CSS Modules
-> Cross Browser Testing
-> logo
+-_Print Shop_
+
+-_CSS Modules_
+
+-_Cross Browser Testing_
+
+-_Logo_
 
 ---
 
