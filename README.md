@@ -107,11 +107,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 - Tablet Resource Index
 
-![Dummy Link](https://i.imgur.com/58cP8rG.png)
+![Dummy Link](https://i.imgur.com/2XXqE2F.png)
 
 - Mobile Resource Index
 
-![Dummy Link](https://i.imgur.com/pegUtgw.png)
+![Dummy Link](https://i.imgur.com/v3LQxCj.png)
 
 - Mobile Resource Index
 
