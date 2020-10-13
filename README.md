@@ -42,7 +42,6 @@ Is content infrastructure. The platform lets you create, manage and distribute c
     - [Wireframes](#Wireframes)
     - [Component Hierarchy](#Component-Hierarchy)
     - [Component Breakdown](#Component-Breakdown)
-    - [Component Estimates](#Component-Estimates)
   - [Server (Back End)](#Server-Back-End)
     - [ERD Model](#ERD-Model)
     - [Data Heirarchy](#Data-Heirarchy)
@@ -151,40 +150,14 @@ src
 
 #### Component Breakdown
 
-#### Component Estimates
-
-> Use this section to estimate the time necessary to build out each of the components you've described above.
-
-| Task                | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
-
-<br>
 
 ### Server (Back End)
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model.
+![Dummy Link](https://i.imgur.com/OMtPlYY.png)
 
-#### Data Hierarchy
-
-> Use this section to display the database, table, and attribute heirarchy.
-
-```structure
-
-database_db
-|__ users/
-|__ resources/
-|__ posts/
-
-```
-
-#### Data Hierarchy
+#### Data Flow in an app
 
 > Use this section to display the expected endpoints from your API.
 
@@ -194,24 +167,28 @@ database_db
 
 > Use this section to list all supporting libraries and dependencies, and their role in the project.
 
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|         Dependencies          | Description                                                  |
+| :---------------------------: | :----------------------------------------------------------- |
+|  gatsby-plugin-react-helmet   | _Meta data, SEO._                                            |
+|   gatsby-transformer-sharp    | _Resizing, cropping, and creating responsive images._        |
+|      gatsby-plugin-sharp      | _Helper plugin._                                             |
+| gatsby-plugin-transition-link | _Provides a simple api expressive transitions between pages_ |
+|    gatsby-plugin-manifest     | _The web app manifest._                                      |
+|   gatsby-source-contentful    | _Contentful Space._                                          |
+|          react-icons          | _Icons library._                                             |
+|       react-masonry-css       | _Responsive Masonry._                                        |
 
 <br>
 
 ---
 
-> This section is not necessary for your pitch!
+
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
-
+> Print Shop
+> CSS Modules
+> Cross Browser Testing
 ---
 
 ## Code Showcase
