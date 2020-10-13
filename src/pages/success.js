@@ -6,12 +6,9 @@ const Success = () => {
   return (
     <Layout>
       <SEO title="Success" />
-      <section className="success-page">
+      <section className="success-page" style={{padding: 50}}>
         <div className="page-center">
-          <h2>
-            Your message was successfully sent. I will get back to you as soon as
-            I can.
-          </h2>
+          <h2>Your message was successfully sent!</h2>
           <Link to="/" className="btn">
             back home
           </Link>
