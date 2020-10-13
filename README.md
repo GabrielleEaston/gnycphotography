@@ -96,7 +96,6 @@ _The **Gonzalo Cisterna's Photography** Developed with Gatsby, GraphQl and Conte
 
 #### Component Hierarchy
 
-
 ```structure
 
 src
@@ -137,7 +136,15 @@ src
 #### Data Flow in an app
 
 > Where the data gets fetched and how it flows
-> We are getting the data in following files>>>gatsby-node (to dynamically create pages), category-template ---> Thumbnails components -->Thumbnail; photo-template --> Single Image Component; Categories we are fetching data in component.
+> We are getting the data in following files
+
+-_gatsby-node (to dynamically create pages)_
+
+-_category-template ---> Thumbnails components -->Thumbnail_
+
+-_photo-template --> Single Image Component_
+
+-_In Categories we are fetching data in component_
 
 <br>
 
@@ -219,7 +226,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
 ## Code Issues & Resolutions
 
-> warning  Nested block is redundant  no-lone-blocks.
+> warning Nested block is redundant no-lone-blocks.
+
 ```
 let links = []
   let currentIndex
