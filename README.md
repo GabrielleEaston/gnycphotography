@@ -1,13 +1,4 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->  
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
@@ -50,7 +41,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-## 🎓 Learning Gatsby
+## 🎓 Gatsby
 Gatsby is a blazing-fast static site generator for React. So you can get server side rendering automatically because of Gatsby.
 A Gatsby site is also highly performant because it gives you client side code splitting and lazy loading of assets. This means that Gatsby gives the browser a complete page as a single file. Gatsby also performs prefetching. After a page is loaded, it fetches data for all the other pages that are linked on the loaded page. This makes user navigation extremely fast
 
@@ -71,7 +62,6 @@ Is content infrastructure. The platform lets you create, manage and distribute c
 
 - [Overview](#Overview)
   - [Core Features](#Core-Features)
-  - [Goals](#Goals)
   - [Team](#Team)
   - [Permissions](#Permissions)
 - [MVP](#MVP)
@@ -93,25 +83,19 @@ Is content infrastructure. The platform lets you create, manage and distribute c
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_**Personal Website to showcase collection of art work** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
 ### Core Features
 
-_Lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_Being able to easily update the content once the development is completed._
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
+- _Simple minimalistic design._
+- _Responsive._
+- _Easy updates._
+- _Image optimization (reason for choosing Gatsby)._
+- _Print Shop(coming soon feature)._
 - _etc._
 
-### Goals
-
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
 
 ### Team
 
