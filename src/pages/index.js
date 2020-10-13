@@ -1,15 +1,38 @@
 import React from "react"
-//import { Link } from "gatsby"
-import Layout from "../components/layout"
+import { graphql } from "gatsby"
 import SEO from "../components/seo"
-
-const IndexPage = () => {
+import Thumbnails from "../components/Thumbnails"
+const IndexPage = ({ data }) => {
+  const {
+    allContentfulGalleries: { nodes: images },
+  } = data
   return (
-    <Layout>
-      <SEO title="Home" />
-      <h4>Featured art</h4>
-    </Layout>
+    <>
+      <SEO title="Home" description="home page" />
+      <Thumbnails images={images} />
+    </>
   )
 }
 
 export default IndexPage
+
+export const query = graphql`
+  {
+    allContentfulGalleries(filter: { featured: { eq: true } }) {
+      nodes {
+        category
+        slug
+        title
+        desc {
+          desc
+        }
+        featured
+        image {
+          fluid {
+            ...GatsbyContentfulFluid
+          }
+        }
+      }
+    }
+  }
+`
