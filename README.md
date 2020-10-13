@@ -89,9 +89,9 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
 
-![Dummy Link](url)
+
+![Dummy Link](https://i.imgur.com/cwzxIdq.png)
 
 - Desktop Landing
 
