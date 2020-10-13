@@ -29,7 +29,6 @@ Gatsby maintains an internal GraphQL data store. This internal data store is que
 Contentful CMS
 Is content infrastructure. The platform lets you create, manage and distribute content to any platform. Unlike a CMS, we give you total freedom to create your own content model so you can decide which content you want to manage.
 
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 # Personal Website for a local NYC Photographer <!-- omit in toc -->
@@ -68,7 +67,6 @@ _Being able to easily update the content once the development is completed._
 - _Easy content updates._
 - _Image optimization (reason for choosing Gatsby)._
 
-
 ### Team
 
 Created, designed, and developed by [Gabrielle Easton](https://github.com/GabrielleEaston)
@@ -88,8 +86,6 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 ### Front End is completed with Gatsby
 
 #### Wireframes
-
-
 
 ![Dummy Link](https://i.imgur.com/cwzxIdq.png)
 
@@ -111,7 +107,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 - Tablet Resource Index
 
-![Dummy Link](url)
+![Dummy Link](https://i.imgur.com/58cP8rG.png)
+
+- Mobile Resource Index
+
+![Dummy Link](https://i.imgur.com/pegUtgw.png)
 
 - Mobile Resource Index
 
