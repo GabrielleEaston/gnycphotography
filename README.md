@@ -60,7 +60,7 @@ Digital assets used with full licensing and permission from [Personal Collection
 
 ## MVP
 
-_The **Gonzalo Cisterna's Photography** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **Gonzalo Cisterna's Photography** Developed with Gatsby, GraphQl and Contentful CMS._
 
 ### Front End is completed with Gatsby
 
