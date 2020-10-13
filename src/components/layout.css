@@ -286,6 +286,7 @@ main {
     z-index: 999;
     display: grid;
     place-items: center;
+    padding-top: 7rem;
     opacity: 0;
     transition: var(--transition);
     transform: translateX(-100%);
