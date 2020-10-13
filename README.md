@@ -1,4 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
 ## 🎓 Gatsby
 
 Gatsby is a blazing-fast static site generator for React. So you can get server side rendering automatically because of Gatsby.
@@ -59,7 +60,6 @@ Digital assets used with full licensing and permission from [Personal Collection
 
 ## MVP
 
-
 _The **Gonzalo Cisterna's Photography** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
 ### Front End is completed with Gatsby
@@ -96,7 +96,7 @@ _The **Gonzalo Cisterna's Photography** MVP lorem ipsum dolor sit amet, consecte
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app.
+> Data architecture of the app.
 
 ```structure
 
@@ -129,7 +129,6 @@ src
 
 #### Component Breakdown
 
-
 ### Server (Back End) Contentful CMS
 
 #### ERD Model
@@ -161,14 +160,13 @@ src
 
 ---
 
-
-
 ## Post-MVP
 
 > Print Shop
 > CSS Modules
 > Cross Browser Testing
 > logo
+
 ---
 
 ## Code Showcase
