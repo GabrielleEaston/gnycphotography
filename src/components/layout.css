@@ -178,12 +178,13 @@ header {
 }
 header h1 {
   font-weight: bold;
+  font-size: 1.7rem;
 }
 main {
   grid-area: content;
 }
 
-/*=====Sidebar css=====*/
+/*=====Sidebar=====*/
 
 .sidebar {
   grid-area: sidebar;
@@ -191,17 +192,25 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: var(--spacing);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  transition: var(--transition);
 }
 
 /*categories*/
 
 .categories {
   text-transform: capitalize;
+  padding-top: 5%;
 }
 
 /*Navigation about and contact */
 
 .nav-container {
+  padding: 10% 0 10% 0;
 }
 
 /*Social links */
@@ -209,13 +218,14 @@ main {
   padding: 2% 0 5% 0;
 }
 .social-links {
-  width: 12rem;
+  height: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .social-link {
   font-size: 1.6rem;
+  background-color: transparent;
   color: var(--clr-black);
   transition: var(--transition);
 }
