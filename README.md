@@ -1,23 +1,4 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-
 ## 🎓 Gatsby
 
 Gatsby is a blazing-fast static site generator for React. So you can get server side rendering automatically because of Gatsby.
@@ -78,9 +59,8 @@ Digital assets used with full licensing and permission from [Personal Collection
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **Gonzalo Cisterna's Photography** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
 ### Front End is completed with Gatsby
 
@@ -131,7 +111,6 @@ src
       |__ SingleImage
       |__ Thumbnail
       |__ Thumbnails
-      |__
 |__ images/
       |__ Gatsby-icon.svg
 |__ pages/
@@ -151,7 +130,7 @@ src
 #### Component Breakdown
 
 
-### Server (Back End)
+### Server (Back End) Contentful CMS
 
 #### ERD Model
 
@@ -189,6 +168,7 @@ src
 > Print Shop
 > CSS Modules
 > Cross Browser Testing
+> logo
 ---
 
 ## Code Showcase
