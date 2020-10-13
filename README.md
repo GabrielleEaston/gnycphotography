@@ -51,14 +51,19 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 12. **`README.md`**: A text file containing useful reference information about your project.
 
 ## 🎓 Learning Gatsby
+Gatsby is a blazing-fast static site generator for React. So you can get server side rendering automatically because of Gatsby.
+A Gatsby site is also highly performant because it gives you client side code splitting and lazy loading of assets. This means that Gatsby gives the browser a complete page as a single file. Gatsby also performs prefetching. After a page is loaded, it fetches data for all the other pages that are linked on the loaded page. This makes user navigation extremely fast
 
+GraphQL
+Gatsby maintains an internal GraphQL data store. This internal data store is query-able via graphQL. During build Gatsby fetches data for each page and then bundles them up as individual pages.
+
+Contentful CMS
+Is content infrastructure. The platform lets you create, manage and distribute content to any platform. Unlike a CMS, we give you total freedom to create your own content model so you can decide which content you want to manage.
 
 
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 # Personal Website for a local NYC Photographer <!-- omit in toc -->
@@ -110,11 +115,11 @@ _Lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. I
 
 ### Team
 
-Created, designed, and developed by [James Madison](https://github.com/mishakessler) for the General Assembly Software Engineering Immersive (November '19 Cohort) Unit 4 Project.
+Created, designed, and developed by [Gabrielle Easton](https://github.com/GabrielleEaston) 
 
 ### Permissions
 
-Digital assets used with full licensing and permission from [Death to Stock Photo](), [Freepik](), and [Unsplash](). Custom digital design and branding by John Lansing. Digital assets stored locally and on [Imgur]().
+Digital assets used with full licensing and permission from [Personal Collection](), and [Unsplash]() for showcase purposes.
 
 <br>
 
@@ -124,7 +129,7 @@ Digital assets used with full licensing and permission from [Death to Stock Phot
 
 _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
-### Client (Front End)
+### Front End is completed with Gatsby
 
 #### Wireframes
 
@@ -161,28 +166,38 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 ``` structure
 
 src
-|__ assets/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
 |__ components/
-      |__ Header.jsx
-|__ services/
+      |__ Categories
+      |__ Header
+      |__ layout
+      |__ Mobile-menu
+      |__ seo
+      |__ Sidebar
+      |__ SingleImage
+      |__ Thumbnail
+      |__ Thumbnails
+      |__
+|__ images/
+      |__ Gatsby-icon.svg
+|__ pages/
+      |__404
+      |__about
+      |__contact
+      |__index
+      |__success
+|__templates/
+      |__category-template
+      |__photo-template 
+
+      gatsby-node created dynamically pages using templates     
 
 ```
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
 
-|  Component   |    Type    | state | props | Description                                                      |
-| :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+
+
 
 #### Component Estimates
 
