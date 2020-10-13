@@ -37,7 +37,7 @@ Is content infrastructure. The platform lets you create, manage and distribute c
 
 ## Overview
 
-_**Personal Website to showcase collection of art work** Developed with Gatsby, GraphQl and Contentful CMS._
+_**Personal Website to showcase collection of artwork** Developed with Gatsby, GraphQl and Contentful CMS._
 
 ### Core Features
 
