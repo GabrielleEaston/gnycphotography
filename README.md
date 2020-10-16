@@ -173,8 +173,6 @@ src
 
 -_CSS Modules_
 
--_Cross Browser Testing_
-
 -_Logo_
 
 ---

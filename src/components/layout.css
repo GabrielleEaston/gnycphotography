@@ -14,15 +14,8 @@ Variables
 */
 
 :root {
-  /* dark shades of primary color*/
-  /* --clr-primary-1: hsl(43, 86%, 17%); */
-
-  /* darkest grey - used for headings */
   --clr-black: #000000;
   --clr-grey: #777777;
-  
-
-  /* grey used for paragraphs */
   --clr-grey-10: #777777;
   --clr-grey-11: #969696;
   --clr-white: #fff;
