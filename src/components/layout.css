@@ -20,14 +20,9 @@ Variables
   /* darkest grey - used for headings */
   --clr-black: #000000;
   --clr-grey: #777777;
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  
 
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: #777777;
   --clr-grey-11: #969696;
   --clr-white: #fff;
@@ -184,7 +179,6 @@ main {
 }
 
 /*=====Sidebar=====*/
-
 .sidebar {
   grid-area: sidebar;
   border-right: 2px solid rgb(160, 154, 154);
