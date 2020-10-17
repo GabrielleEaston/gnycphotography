@@ -251,7 +251,6 @@ main {
   display: none;
 }
 .toggle-btn {
-  font-size: 32px;
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
@@ -503,4 +502,11 @@ main {
 }
 .arrow-left:hover {
   cursor: w-resize;
+}
+
+@media screen and (max-width: 768px) {
+  .container-view {
+    width: 100%;
+    padding: 0;
+  }
 }
