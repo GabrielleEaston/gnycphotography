@@ -33,11 +33,9 @@ const SingleImage = props => {
         <Link to={`/${props.photo.category}`}>
           <AiOutlineCloseCircle className="close"></AiOutlineCloseCircle>
         </Link>
-
         <AniLink fade to={`/${prev}`}>
           <div className="arrow-left"></div>
         </AniLink>
-
         <Image
           fluid={props.photo.image.fluid}
           alt={props.photo.slug}
