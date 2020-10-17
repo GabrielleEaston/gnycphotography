@@ -291,6 +291,7 @@ main {
       4rem /* Header */
       1fr /* Content */
       auto; /* Footer */
+    height: 100%;
   }
   .mobile {
     background: var(--clr-black);
