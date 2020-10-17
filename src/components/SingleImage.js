@@ -3,6 +3,7 @@ import Image from "gatsby-image"
 import Layout from "./layout"
 import { Link } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { AiOutlineCloseCircle } from "react-icons/ai"
 
 const SingleImage = props => {
   let links = []
@@ -29,9 +30,13 @@ const SingleImage = props => {
   return (
     <Layout>
       <div className="container-view">
-        {/* <div>
-          <Link to={`/${prev}`}>prev</Link>
-        </div> */}
+        <Link to={`/${props.photo.category}`}>
+          <AiOutlineCloseCircle className="close"></AiOutlineCloseCircle>
+        </Link>
+
+        <AniLink fade to={`/${prev}`}>
+          <div className="arrow-left"></div>
+        </AniLink>
 
         <Image
           fluid={props.photo.image.fluid}
@@ -40,9 +45,9 @@ const SingleImage = props => {
           imgStyle={{ objectFit: "contain" }}
         />
 
-        {/* <div>
-          <Link to={`/${next}`}>next</Link>
-        </div> */}
+        <AniLink fade to={`/${prev}`}>
+          <div className="arrow-right"></div>
+        </AniLink>
       </div>
       <div className="carousel-navigation">
         <Link to={`/${props.photo.category}`}>show thumbnails</Link>
