@@ -181,7 +181,6 @@ main {
 /*=====Sidebar=====*/
 .sidebar {
   grid-area: sidebar;
-  border-right: 2px solid rgb(160, 154, 154);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
