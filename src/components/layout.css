@@ -129,7 +129,6 @@ p {
   font-weight: 700;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  font-size: 14px;
   font-size: 0.875rem;
   border: 1px solid transparent;
   cursor: pointer;
@@ -171,7 +170,7 @@ header {
   left: 4%;
   top: 3%;
 }
-header h1 {
+#logo {
   font-weight: bold;
   font-size: 1.7rem;
 }
@@ -182,7 +181,7 @@ main {
 /*=====Sidebar=====*/
 .sidebar {
   grid-area: sidebar;
-  /* border-right: 2px solid rgb(160, 154, 154); */
+  border-right: 2px solid rgb(160, 154, 154);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,6 +198,7 @@ main {
   -webkit-transition: var(--transition);
   transition: var(--transition);
   position: fixed;
+  padding-right: 6%;
   top: 5rem;
   left: 4%;
 }
@@ -213,7 +213,7 @@ main {
 /*Navigation about and contact */
 
 .nav-container {
-  padding: 10% 0 10% 0;
+  padding: 10% 0 32% 0;
 }
 
 /*Social links */
@@ -221,8 +221,7 @@ main {
   padding: 2% 0 5% 0;
 }
 .social-links {
-  height: 240px;
-  height: 15rem;
+  height: 18rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -235,7 +234,6 @@ main {
   justify-content: space-between;
 }
 .social-link {
-  font-size: 25.6px;
   font-size: 1.6rem;
   background-color: transparent;
   color: var(--clr-black);
@@ -405,8 +403,8 @@ main {
 
 .carousel-navigation {
   position: fixed;
-  bottom: 3%;
-  left: 4%;
+  bottom: 10%;
+  left: 55%;
   text-transform: uppercase;
 }
 
@@ -467,12 +465,7 @@ main {
   background-color: #000000;
   color: white;
   padding: 0.5rem;
-  border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius);
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
 }
-
 .close {
   position: absolute;
   right: 0;
@@ -507,6 +500,5 @@ main {
 @media screen and (max-width: 768px) {
   .container-view {
     width: 100%;
-    padding: 2.5rem 0 2rem 0;
   }
 }

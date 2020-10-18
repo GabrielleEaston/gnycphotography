@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import Categories from "./Categories"
 import { RiFacebookLine, RiMailSendLine } from "react-icons/ri"
 import { AiOutlineInstagram, AiOutlineCloseCircle } from "react-icons/ai"
-//import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { BsPhone } from "react-icons/bs"
 const MobileMenu = ({ isOpen, toggle }) => {
   return (
@@ -56,12 +55,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
               </a>
             </li>
             <li>
-              <a
-                href="tel:2023749704"
-                target="_blank"
-                rel="noreferrer"
-                className="social-link"
-              >
+              <a href="tel:2023749704" rel="noreferrer" className="social-link">
                 <BsPhone></BsPhone>
               </a>
             </li>

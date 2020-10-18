@@ -6,9 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai"
 const Header = ({ toggle }) => {
   return (
     <header className="sidebar-header">
-      <Link to="/">
-        <h1>GONZALO CISTERNA </h1>
-      </Link>
+      <Link to="/" id="logo">GONZALO CISTERNA</Link>
       <button className="toggle-btn" onClick={toggle}>
         <AiOutlineMenu></AiOutlineMenu>
       </button>

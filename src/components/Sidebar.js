@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import Categories from "./Categories"
 import { RiFacebookLine, RiMailSendLine } from "react-icons/ri"
 import { AiOutlineInstagram } from "react-icons/ai"
-//import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { BsPhone } from "react-icons/bs"
 const Sidebar = () => {
   return (
@@ -45,7 +44,6 @@ const Sidebar = () => {
           <li>
             <a
               href="mailto:info@gonzalocisterna.com"
-              target="_blank"
               rel="noreferrer"
               className="social-link"
             >
@@ -55,7 +53,6 @@ const Sidebar = () => {
           <li>
             <a
               href="tel:2023749704"
-              target="_blank"
               rel="noreferrer"
               className="social-link"
             >
