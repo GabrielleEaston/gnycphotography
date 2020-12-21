@@ -192,8 +192,8 @@ main {
   text-transform: capitalize;
   color: white;
   letter-spacing: var(--spacing);
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  margin-bottom: 0.1rem;
+  font-size: 1.1rem;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   position: fixed;
@@ -217,10 +217,10 @@ main {
 
 /*Social links */
 .social-links-container {
-  padding: 2% 0 5% 0;
+  padding: 20% 0 5% 0;
 }
 .social-links {
-  height: 18rem;
+  height: 14rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
